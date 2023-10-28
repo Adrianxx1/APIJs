@@ -40,7 +40,7 @@ function pintaFondo(temp){
 function pintaEmoji(temp){
     const emo = document.querySelector('#emoji');
     if(temp < 13){
-        emo.innerHTML = '🥶❄️⛄';
+        emo.innerHTML = '❄️🥶🌬️';
 
     } else if (temp < 22){
         emo.innerHTML = '😎🍻🌈';
